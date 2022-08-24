@@ -33,6 +33,10 @@ app.get("/", (req, res)=>{
   res.render("home")
 })
 
+app.get("/index", (req, res)=>{
+  res.render("index")
+})
+
 app.get('/airtime', (req, res) => {
   res.render('airtime');
 });
